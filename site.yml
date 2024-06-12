@@ -1,5 +1,5 @@
 ---
-- hosts: web_servers
+- hosts: LinuxServer
   become: true
   tasks:
     - name: Print OS info
